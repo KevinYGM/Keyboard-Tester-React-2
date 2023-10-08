@@ -13,9 +13,9 @@ function App() {
         <div id= "big-section" className="keyboard-sections">
           <BigSection1 />
           <BigSection2 />
-          <CenterSection />
-          <NumberSection />
         </div>
+        <CenterSection />
+        <NumberSection />
       </div>
     </>
     );
