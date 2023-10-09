@@ -1,1 +1,107 @@
+/*--------------Estilos generales-----------------*/
+
+h1{
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+
+h3{
+  margin-top: 2rem;
+  font-size: 2rem;
+   margin-bottom: 2rem;
+}
+
+hr{
+  width: 100%;
+}
+
+
+#root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/*--------------body-keyboard-----------------*/
+.body-keyboard{
+  width: 85%;
+  border-radius: 0.5rem;
+  background-image: radial-gradient(circle at 50% -3.03%, #d0ffff 0, #c6ffff 16.67%, #bcfffc 33.33%, #b4f7ef 50%, #ade4e1 66.67%, #a7d3d3 83.33%, #a2c5c7 100%);
+  box-shadow: 0px 0px 15px 5px black;
+  padding: 2rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 65% auto 18%;
+  gap: 1.5rem;
+}
+
+/*--------------container-big-section--------------*/
+.container-big-section{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.functions{
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+
+#big-section{
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.line-one, 
+.line-two, 
+.line-three, 
+.line-four, 
+.line-five{
+  display:grid;
+  grid-template-columns: repeat(15, 1fr);
+  gap: 0.4rem;
+}
+
+/*--------------center-section-----------------*/
+
+#center-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.center-up{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.4rem;
+
+}
+
+.center-down{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0.4rem;
+}
+
+
+/*-------------------number-section-----------------*/
+#number-pad{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.4rem;
+}
+
+
 
