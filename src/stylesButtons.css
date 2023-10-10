@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
 /*--------------Buttons generals-----------------*/
 button{
   min-width: 45px;
@@ -17,7 +18,6 @@ button{
   user-select: none;
 }
 
-.symbol:hover,
 button:hover{
   background-color: yellow;
   color: black;
@@ -29,6 +29,7 @@ button:active{
   color: black;
 }
 
+/*-----------------Specials--------------------------------*/
 .button-pressed{
   background-color: rgb(207, 33, 33);
   color: white;
@@ -189,7 +190,6 @@ button:active{
 }
 
 #tab, .left-shift{
-  /*width: 6.5rem;*/
   width: 5vw;
 }
 

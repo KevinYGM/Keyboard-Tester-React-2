@@ -2,6 +2,7 @@ import React from 'react'
 import { buttonPressed } from '../helper/buttonPressed'
 
 export const CenterSection = () => {
+  
   return (
   
     <div id="center-section" className='keyboard-sections'>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap');
+
 /*--------------Estilos generales-----------------*/
 
 h1{
@@ -24,6 +26,8 @@ hr{
   justify-content: flex-start;
   align-items: center;
 }
+
+/*--------------------Full page styles-------------------------------*/
 
 .title{
   width: 100%;
@@ -181,5 +185,47 @@ hr{
   gap: 0.4rem;
 }
 
+/*----------------Footer-------------------*/
 
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5px;
+  background-color: black;
+  color: white;
+  height: 15vh;
+  width: 100%;
+  padding: 20px;
+  
+}
+
+footer .logo{
+  flex-grow: 2;
+  display: flex;
+  font-family: 'Roboto Slab', serif;
+}
+
+footer .logo span{
+  display: block;
+  font-size: 85px;
+  font-weight: bolder;
+}
+
+footer .logo h3 {
+  display: block;
+  flex-basis: 40px;
+  margin-left: 10px;
+  font-weight: 300;
+}
+
+footer .linkedin{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
 

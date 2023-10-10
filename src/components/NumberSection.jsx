@@ -56,6 +56,6 @@ export const NumberSection = () => {
         <button id="pad-point" className='symbol' onClick={e => buttonPressed(e)}>
           <span>.</span><span>DEL</span>
         </button>
-      </div>
+    </div>
   )
 }

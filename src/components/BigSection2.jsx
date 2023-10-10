@@ -2,8 +2,8 @@ import React from 'react'
 import { buttonPressed } from '../helper/buttonPressed'
 
 export const BigSection2 = () => {
+
   // variables to be able to place symbols that JSX does not accept.
-  
   const openBracket = "{";
   const minor = "<";
   const elderly = ">";

@@ -11,7 +11,6 @@ export const keysConnections = () => {
 
 
   document.addEventListener('keydown', function(event) {
-    console.log('Tecla presionada:', event.key, event.code);
 
 /*-----------------------Buttons Component: BigSection1 --------------------*/
 

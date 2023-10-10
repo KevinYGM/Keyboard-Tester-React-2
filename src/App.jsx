@@ -7,6 +7,7 @@ import { CenterSection } from './components/CenterSection';
 import { NumberSection } from './components/NumberSection';
 import { FunctionsSection } from './components/FunctionsSection';
 import { keysConnections } from './helper/keysConnections';
+import { BsLinkedin } from "react-icons/bs";
 
 
 function App() {
@@ -45,7 +46,7 @@ function App() {
           setKeyPressed(event.key);
         }
 
-//Function that checks if CAPSLOCK is active or inactive
+//Function that checks if CAPSLOCK is active or inactive.
 
         if (event.getModifierState('CapsLock')) {
           setCapsLockOn(true);
@@ -62,6 +63,7 @@ function App() {
     <>
       <h1>KEYBOARD TESTER | PROBADOR DE TECLADO</h1>
       <hr />
+      
       <div className='title'>
         <p className='capsLockVerified'>
             <span>CAPS LOCK: </span>
@@ -72,7 +74,8 @@ function App() {
           <span>LAST KEY PRESSED : </span>
           <span>{keyPressed ? keyPressed : "None"}</span>
         </p>
-      </div>      
+      </div>   
+
     
       <div className='body-keyboard'>
         <div className="container-big-section">
@@ -88,8 +91,22 @@ function App() {
       </div>
 
       <h3>LAYOUT QWERTY SPANISH</h3>
+
+      <hr />
+
+      <footer>
+        <div className="logo">
+          <span>KG</span>
+          <h3>Kevin González Montenegro</h3>
+        </div>
+        
+        <a href="https://www.linkedin.com/in/kevinygm/" className='linkedin' target="_blank">
+          <BsLinkedin />
+          <span>Created with React in 2023</span>
+        </a>
+      </footer>
     </>
-    );
+   );
   
   }
 
