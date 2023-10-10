@@ -8,6 +8,8 @@ export const BigSection2 = () => {
   const minor = "<";
   const elderly = ">";
 
+
+
   return (
     <>
 {/*------------------------- Line: 3--------------------------- */}
@@ -33,7 +35,7 @@ export const BigSection2 = () => {
 
 {/*------------------------ Line: 4-------------------------- */}  
       <section className='line-four'>
-        <button id="shift" className="left-shift" onClick={e => buttonPressed(e)}>SHIFT</button>
+        <button id="left-shift" className="left-shift" onClick={e => buttonPressed(e)}>SHIFT</button>
 
         <button id="symb-arrows" className='symbol' onClick={e => buttonPressed(e)}>
           <span>{minor}</span> <span>{elderly}</span>
@@ -55,22 +57,22 @@ export const BigSection2 = () => {
           <span>:</span> <span>.</span>
         </button>
 
-        <button id="symb-- " className='symbol' onClick={e => buttonPressed(e)}>
+        <button id="symb--" className='symbol' onClick={e => buttonPressed(e)}>
           <span>_</span> <span>-</span>
         </button>
 
-        <button id="shift" className="right-shift" onClick={e => buttonPressed(e)}>SHIFT</button>
+        <button id="right-shift" className="right-shift" onClick={e => buttonPressed(e)}>SHIFT</button>
       </section>
 
 {/*------------------------- Line: 5--------------------------- */}
       <section className='line-five'>
-        <button id="ctrl" className="left-ctrl" onClick={e => buttonPressed(e)}>CTRL</button>
+        <button id="left-ctrl" className="left-ctrl" onClick={e => buttonPressed(e)}>CTRL</button>
         <button id="win" onClick={e => buttonPressed(e)}>WIN</button>
-        <button id="alt" className="left-alt" onClick={e => buttonPressed(e)}>ALT</button>
+        <button id="left-alt" className="left-alt" onClick={e => buttonPressed(e)}>ALT</button>
         <button id="space-bar" onClick={e => buttonPressed(e)}></button>
-        <button id="alt" className="right-alt" onClick={e => buttonPressed(e)}>ALT</button>
-        <button id="fn" onClick={e => buttonPressed(e)}>FN</button>
-        <button id="ctrl" className="right-ctrl" onClick={e => buttonPressed(e)}>CTRL</button>
+        <button id="right-alt" className="right-alt" onClick={e => buttonPressed(e)}>ALT</button>
+        <button id="fn" onClick={e => buttonPressed(e)}>☰</button>
+        <button id="right-ctrl" className="right-ctrl" onClick={e => buttonPressed(e)}>CTRL</button>
       </section>
     </>
   )

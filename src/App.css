@@ -25,18 +25,96 @@ hr{
   align-items: center;
 }
 
+.title{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.lastKey, .capsLockVerified{
+  display:flex;
+  position: relative;
+  justify-content: space-around;
+  width: 27%;
+  background-image: radial-gradient(circle at 50% -3.03%, #d0ffff 0, #c6ffff 16.67%, #bcfffc 33.33%, #b4f7ef 50%, #ade4e1 66.67%, #a7d3d3 83.33%, #a2c5c7 100%);
+  padding: 5px;
+  box-shadow: 0px 0px 5px 1px rgba(206, 166, 166, 0.753);
+  border: 1px solid black;
+  border-radius: 5px;
+  
+}
+
+.lastKey{
+  animation: move-right 3s ease-in-out;
+}
+
+.capsLockVerified{
+  animation: move-left 2s ease-in-out;
+}
+
+@keyframes move-right {
+  0% {
+    left: 20%;
+  }
+  50% {
+    left: 0;
+  }
+}
+
+@keyframes move-left {
+  0% {
+    right: 20%;
+  }
+  50% {
+    right: 0;
+  }
+}
+
+.lastKey span, .capsLockVerified span{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.lastKey span:nth-child(2){
+  display: inline-flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px; 
+  border-radius: 5px;
+  background-color: black;
+  border: 0.5px solid white;
+  color: white;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
 /*--------------body-keyboard-----------------*/
 .body-keyboard{
-  width: 85%;
+  position: relative;
   border-radius: 0.5rem;
   background-image: radial-gradient(circle at 50% -3.03%, #d0ffff 0, #c6ffff 16.67%, #bcfffc 33.33%, #b4f7ef 50%, #ade4e1 66.67%, #a7d3d3 83.33%, #a2c5c7 100%);
   box-shadow: 0px 0px 15px 5px black;
   padding: 2rem;
   display: grid;
   justify-content: center;
-  grid-template-columns: 65% auto 18%;
+  grid-template-columns: 721px 159px 200px;
   gap: 1.5rem;
+  animation: move-up 4s ease-in-out;
 }
+
+@keyframes move-up {
+  0% {
+    top: 50%;
+  }
+  50% {
+    top: 0;
+  }
+}
+
 
 /*--------------container-big-section--------------*/
 .container-big-section{
