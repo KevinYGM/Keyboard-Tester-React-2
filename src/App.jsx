@@ -8,6 +8,7 @@ import { NumberSection } from './components/NumberSection';
 import { FunctionsSection } from './components/FunctionsSection';
 import { keysConnections } from './helper/keysConnections';
 import { BsLinkedin } from "react-icons/bs";
+import { FaReact } from "react-icons/fa6";
 
 
 function App() {
@@ -98,10 +99,15 @@ function App() {
           <span>KG</span>
           <h3>Kevin González Montenegro</h3>
         </div>
+
+        <div className="react">
+        <span><FaReact /></span>
+        <span>&copy; Created with <strong>React</strong> in 2023  </span>
+        </div>
         
-        <a href="https://www.linkedin.com/in/kevinygm/" className='linkedin' target="_blank">
+        <a href="https://www.linkedin.com/in/kevinygm/" className='linkedin' target="_blank" rel="noreferrer">
           <BsLinkedin />
-          <span>Created with React in 2023</span>
+          <span>Programmer Linkedin</span>
         </a>
       </footer>
     </>
