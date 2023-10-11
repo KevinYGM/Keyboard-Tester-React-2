@@ -197,7 +197,8 @@ hr{
 
 footer{
   margin-top: auto;
-  border: 2px double red;
+  border-top: 2px double red;
+  border-bottom: 2px double red;
   display: flex;
   justify-content: space-around;
   align-items: center;

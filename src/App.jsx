@@ -92,7 +92,7 @@ function App() {
       </div>
 
       
-
+      <hr />
       <footer>
         <div className="logo">
           <span>KG</span>
