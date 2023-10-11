@@ -61,38 +61,37 @@ function App() {
     
     return (
     <>
-      <h1>KEYBOARD TESTER | PROBADOR DE TECLADO</h1>
-      <hr />
-      
-      <div className='title'>
-        <p className='capsLockVerified'>
-            <span>CAPS LOCK: </span>
-            <span>{capsLockOn ? 'ACTIVE 💡' : 'DISABLED 🚫'}</span>
-        </p>
-          
-        <p className='lastKey'>
-          <span>LAST KEY PRESSED : </span>
-          <span>{keyPressed ? keyPressed : "None"}</span>
-        </p>
-      </div>   
-
-    
-      <div className='body-keyboard'>
-        <div className="container-big-section">
-          <FunctionsSection />
-          <section id= "big-section" className='keyboard-sections'>
-            <BigSection1 />
-            <BigSection2 />
-          </section>
+      <div className="content">
+        <h1>KEYBOARD TESTER | PROBADOR DE TECLADO</h1>
+        <hr />
+        
+        <div className='title'>
+          <p className='capsLockVerified'>
+              <span>CAPS LOCK: </span>
+              <span>{capsLockOn ? 'ACTIVE 💡' : 'DISABLED 🚫'}</span>
+          </p>
+        
+          <p className='lastKey'>
+            <span>LAST KEY PRESSED : </span>
+            <span>{keyPressed ? keyPressed : "None"}</span>
+          </p>
         </div>
-       
-        <CenterSection />
-        <NumberSection />
+        <div className='body-keyboard'>
+          <div className="container-big-section">
+            <FunctionsSection />
+            <section id= "big-section" className='keyboard-sections'>
+              <BigSection1 />
+              <BigSection2 />
+            </section>
+          </div>
+        
+          <CenterSection />
+          <NumberSection />
+        </div>
+        <h3>LAYOUT QWERTY SPANISH</h3>
       </div>
 
-      <h3>LAYOUT QWERTY SPANISH</h3>
-
-      <hr />
+      
 
       <footer>
         <div className="logo">
