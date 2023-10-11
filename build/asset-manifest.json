@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Keyboard-Tester-React/static/css/main.468d6c89.css",
+    "main.js": "/Keyboard-Tester-React/static/js/main.19322879.js",
+    "index.html": "/Keyboard-Tester-React/index.html",
+    "main.468d6c89.css.map": "/Keyboard-Tester-React/static/css/main.468d6c89.css.map",
+    "main.19322879.js.map": "/Keyboard-Tester-React/static/js/main.19322879.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.468d6c89.css",
+    "static/js/main.19322879.js"
+  ]
+}
