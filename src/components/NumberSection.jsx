@@ -5,7 +5,7 @@ export const NumberSection = () => {
  
   return (
     <div id="number-pad" className='keyboard-section'>
-        <div id="brand">Kygm App</div>
+        <div id="brand">KYGM APP</div>
         <button id="lock" onClick={e => buttonPressed(e)}>LOCK</button>
         <button id="symbol-slash" onClick={e => buttonPressed(e)}>/</button>
         <button id="symb-asterisk" onClick={e => buttonPressed(e)}>*</button>
