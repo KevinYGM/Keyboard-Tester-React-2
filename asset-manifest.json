@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Keyboard-Tester-React-2/static/css/main.cf426017.css",
-    "main.js": "/Keyboard-Tester-React-2/static/js/main.5d1ef4eb.js",
+    "main.css": "/Keyboard-Tester-React-2/static/css/main.b53f8446.css",
+    "main.js": "/Keyboard-Tester-React-2/static/js/main.909fa751.js",
     "index.html": "/Keyboard-Tester-React-2/index.html",
-    "main.cf426017.css.map": "/Keyboard-Tester-React-2/static/css/main.cf426017.css.map",
-    "main.5d1ef4eb.js.map": "/Keyboard-Tester-React-2/static/js/main.5d1ef4eb.js.map"
+    "main.b53f8446.css.map": "/Keyboard-Tester-React-2/static/css/main.b53f8446.css.map",
+    "main.909fa751.js.map": "/Keyboard-Tester-React-2/static/js/main.909fa751.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf426017.css",
-    "static/js/main.5d1ef4eb.js"
+    "static/css/main.b53f8446.css",
+    "static/js/main.909fa751.js"
   ]
 }
